@@ -1,5 +1,15 @@
+p{
+  margin : 0;
+}
+
 #title {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 1vw;
+    font-size: 5vw;
+}
+
+#short_description {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2vw;
 }
