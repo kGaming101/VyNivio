@@ -1,7 +1,3 @@
-:root {
-  --zoom: 1;
-}
-
 p{
   margin : 0;
 }
@@ -9,27 +5,25 @@ p{
 #title {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: calc(10vw/var(--zoom));
+  font-size: 5vw;
 }
 
 #short_description {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: calc(2.5vw/var(--zoom));
+  font-size: 2.5vw;
 }
 
 #horizontal_line {
-  width: 100rem;
-  height: calc(0.1vw/var(--zoom));
+  width: 100vw;
+  height: 0.1vw;
   background-color: rgb(255, 255, 255);
 }
 
 #small_gap {
-  height: calc(1vw/var(--zoom));
+  height: 1vw;
 }
 
 #youtube_channel, #patreon_page {
-  display: inline-block;
-  margin: 0;
-  height: calc(5vw/var(--zoom));
+  height: 5vw;
 }
