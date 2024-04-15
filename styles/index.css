@@ -1,0 +1,35 @@
+:root {
+  --zoom: 1;
+}
+
+p{
+  margin : 0;
+}
+
+#title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: calc(10vw/var(--zoom));
+}
+
+#short_description {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: calc(2.5vw/var(--zoom));
+}
+
+#horizontal_line {
+  width: 100rem;
+  height: calc(0.1vw/var(--zoom));
+  background-color: rgb(255, 255, 255);
+}
+
+#small_gap {
+  height: calc(1vw/var(--zoom));
+}
+
+#youtube_channel, #patreon_page {
+  display: inline-block;
+  margin: 0;
+  height: calc(5vw/var(--zoom));
+}
